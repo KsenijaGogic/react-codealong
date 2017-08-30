@@ -1,0 +1,29 @@
+.Chip {
+  max-width: 300px;
+}
+
+.Chip-header {
+  padding-top: calc(100%);
+  max-height: 300px;
+  background-color: #E0E0E0;
+  margin: -10px -10px 10px -10px;
+}
+
+.Chip-body {
+  margin-bottom: 30px;
+}
+
+.Chip-body p {
+  margin: 0;
+}
+
+.Chip-tm,
+.Chip-code {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.Chip-code,
+.Chip-name {
+  font-size: 0.8em;
+}

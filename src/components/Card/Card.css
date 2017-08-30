@@ -1,0 +1,7 @@
+.Card {
+  background-color: #FFF;
+  border: 2px solid #E0E0E0;
+  padding: 10px;
+  /* To match Grid gutters */
+  margin-bottom: 24px;
+}
