@@ -23,6 +23,10 @@ const Chip = (props) => {
   )
 }
 
+Chip.defaultProps = {
+  hex: '#D13076'
+}
+
 Chip.propTypes = {
   hex: PropTypes.string.isRequired,
   code: PropTypes.string,
